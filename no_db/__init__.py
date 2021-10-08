@@ -34,6 +34,6 @@ def react_root(path):
     return app.send_static_file('index.html')
 
 
-@app.route('/hello', methods = ['GET'])
+@app.route('/')
 def hello():
-    return {"message": "Hello from back-end"}
+    return {"message": "Hello from back-end which is not attached to a front"}
