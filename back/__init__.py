@@ -2,7 +2,7 @@ import os
 from flask import Flask, render_template, request, session, redirect
 from flask_cors import CORS
 from flask_wtf.csrf import CSRFProtect, generate_csrf
-from no_db.config import Config
+from back.config import Config
 from datetime import datetime
 
 
